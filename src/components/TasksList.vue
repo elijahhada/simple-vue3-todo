@@ -20,27 +20,6 @@ export default {
       return this.$store.getters.getAllTasks
     },
   },
-  // data: function () {
-  //   return {
-  //     tasks: [],
-  //   }
-  // },
-  // methods: {
-  //   getAll() {
-  //     this.axios
-  //       .get("tasks")
-  //       .then((res) => {
-  //         this.tasks = res.data
-  //         console.log(res.data)
-  //       })
-  //       .catch((error) => {
-  //         console.log(error)
-  //       })
-  //   },
-  // },
-  // mounted: function () {
-  //   this.getAll()
-  // },
 }
 </script>
 
